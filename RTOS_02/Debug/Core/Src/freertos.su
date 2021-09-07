@@ -1,0 +1,2 @@
+freertos.c:66:6:MX_FREERTOS_Init	16	static
+freertos.c:112:6:Task1_Handler	24	static

@@ -1,0 +1,4 @@
+freertos.c:78:6:MX_FREERTOS_Init	16	static
+freertos.c:122:6:StartDefaultTask	16	static
+freertos.c:135:6:LedTaskHandler	16	static
+freertos.c:147:6:BtnTaskHandler	16	static
