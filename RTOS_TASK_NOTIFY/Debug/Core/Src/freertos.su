@@ -1,0 +1,5 @@
+freertos.c:79:6:MX_FREERTOS_Init	16	static
+freertos.c:123:6:StartDefaultTask	16	static
+freertos.c:136:6:LedTaskHandler	56	static
+freertos.c:148:6:BtnTaskHandler	16	static
+freertos.c:162:6:rtosDelay	24	static

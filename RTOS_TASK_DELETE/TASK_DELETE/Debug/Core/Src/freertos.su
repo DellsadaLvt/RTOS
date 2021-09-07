@@ -1,0 +1,6 @@
+freertos.c:78:6:MX_FREERTOS_Init	16	static
+freertos.c:122:6:StartDefaultTask	16	static
+freertos.c:135:6:vLed1Handler	128	static,ignoring_inline_asm
+freertos.c:163:6:vLed2Handler	128	static,ignoring_inline_asm
+freertos.c:188:13:prvDelay	24	static
+freertos.c:198:6:HAL_GPIO_EXTI_Callback	16	static

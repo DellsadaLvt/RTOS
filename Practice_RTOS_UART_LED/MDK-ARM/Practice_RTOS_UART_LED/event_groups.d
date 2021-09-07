@@ -1,0 +1,15 @@
+practice_rtos_uart_led\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
+practice_rtos_uart_led\event_groups.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+practice_rtos_uart_led\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+practice_rtos_uart_led\event_groups.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+practice_rtos_uart_led\event_groups.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+practice_rtos_uart_led\event_groups.o: ../Core/Inc/FreeRTOSConfig.h
+practice_rtos_uart_led\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+practice_rtos_uart_led\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+practice_rtos_uart_led\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+practice_rtos_uart_led\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+practice_rtos_uart_led\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+practice_rtos_uart_led\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+practice_rtos_uart_led\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+practice_rtos_uart_led\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+practice_rtos_uart_led\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h

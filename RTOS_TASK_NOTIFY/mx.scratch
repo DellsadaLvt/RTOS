@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScratchFile FileVersion="3.0">
+  <FileVersion>3.0</FileVersion>
+  <Workspace>
+    <WorkspaceType>Single-project</WorkspaceType>
+    <WorkspacePath>E:\Udemy\STM32_Course\MyLearning\Mastering RTOS Hands on FreeRTOS and STM32Fx with Debugging\Cube MX\RTOS_TASK_NOTIFY\</WorkspacePath>
+    <underRoot>true</underRoot>
+    <TrustZone>0</TrustZone>
+    <HAL_Driver>C:\Users\LAPTOP\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.3\</HAL_Driver>
+    <CMSIS>Drivers/CMSIS</CMSIS>
+    <Toolchain>STM32CubeIDE</Toolchain>
+    <IocFile>RTOS_TASK_NOTIFY.ioc</IocFile>
+    <Project>
+      <ProjectName>RTOS_TASK_NOTIFY</ProjectName>
+      <ProjectNature>C</ProjectNature>
+      <Secure />
+      <filestoremove>
+        <file>
+          <name>..\Core\Src\main.c</name>
+        </file>
+        <file>
+          <name>..\Core\Src\freertos.c</name>
+        </file>
+        <file>
+          <name>..\Core\Src\stm32f1xx_it.c</name>
+        </file>
+        <file>
+          <name>..\Core\Src\stm32f1xx_hal_msp.c</name>
+        </file>
+        <file>
+          <name>..\Core\Src\stm32f1xx_hal_timebase_tim.c</name>
+        </file>
+        <file>
+          <name>..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c</name>
+        </file>
+        <file>
+          <name>..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c</name>
+        </file>
+        <file>
+          <name>..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c</name>
+        </file>
+        <file>
+          <name>..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c</name>
+        </file>
+        <file>
+          <name>..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c</name>
+        </file>
+        <file>
+          <name>..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c</name>
+        </file>
+        <file>
+          <name>..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c</name>
+        </file>
+        <file>
+          <name>..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c</name>
+        </file>
+        <file>
+          <name>..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c</name>
+        </file>
+        <file>
+          <name>..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c</name>
+        </file>
+        <file>
+          <name>..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c</name>
+        </file>
+        <file>
+          <name>..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c</name>
+        </file>
+        <file>
+          <name>..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c</name>
+        </file>
+        <file>
+          <name>..\Middlewares\Third_Party\FreeRTOS\Source\croutine.c</name>
+        </file>
+        <file>
+          <name>..\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c</name>
+        </file>
+        <file>
+          <name>..\Middlewares\Third_Party\FreeRTOS\Source\list.c</name>
+        </file>
+        <file>
+          <name>..\Middlewares\Third_Party\FreeRTOS\Source\queue.c</name>
+        </file>
+        <file>
+          <name>..\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c</name>
+        </file>
+        <file>
+          <name>..\Middlewares\Third_Party\FreeRTOS\Source\tasks.c</name>
+        </file>
+        <file>
+          <name>..\Middlewares\Third_Party\FreeRTOS\Source\timers.c</name>
+        </file>
+        <file>
+          <name>..\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2\cmsis_os2.c</name>
+        </file>
+        <file>
+          <name>..\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c</name>
+        </file>
+        <file>
+          <name>..\Middlewares\Third_Party\FreeRTOS\Source\portable\RVDS\ARM_CM3\port.c</name>
+        </file>
+        <file>
+          <name>..\Core\Src\system_stm32f1xx.c</name>
+        </file>
+        <file>
+          <name>..\Drivers\CMSIS\Device\ST\STM32F1xx\Source\Templates\system_stm32f1xx.c</name>
+        </file>
+      </filestoremove>
+      <sourceEntriesToRemove>
+        <sourceEntry />
+      </sourceEntriesToRemove>
+      <configs>
+        <config>
+          <name>RTOS_TASK_NOTIFY</name>
+          <mainSourceRepo>Core</mainSourceRepo>
+          <sourceStructure>Advanced</sourceStructure>
+          <device>STM32F103C8Tx</device>
+          <cpucore>Arm Cortex-M3</cpucore>
+          <fpu>None</fpu>
+          <memories>
+            <memory access="xrw" name="RAM" size="20" start="0x20000000" />
+            <memory access="rx" name="FLASH" size="64" start="0x8000000" />
+          </memories>
+          <startup>C:\Users\LAPTOP\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.3\Drivers\CMSIS\Device\ST\STM32F1xx\Source\Templates\gcc\startup_stm32f103xb.s</startup>
+          <LinkSettings>
+            <icfloc />
+            <LinkAdditionalLibs />
+          </LinkSettings>
+          <heapSize>0x200</heapSize>
+          <stackSize>0x400</stackSize>
+          <board>custom</board>
+          <debugprobe>swd</debugprobe>
+          <optimization />
+          <Aincludes>
+            <include />
+          </Aincludes>
+          <Adefines />
+          <Cdefines>
+            <define>USE_HAL_DRIVER</define>
+            <define>STM32F103xB</define>
+          </Cdefines>
+          <Ldefines />
+          <Cincludes>
+            <include>Core\Inc</include>
+            <include>Drivers\STM32F1xx_HAL_Driver\Inc\Legacy</include>
+            <include>Drivers\STM32F1xx_HAL_Driver\Inc</include>
+            <include>Middlewares\Third_Party\FreeRTOS\Source\include</include>
+            <include>Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2</include>
+            <include>Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3</include>
+            <include>Drivers\CMSIS\Device\ST\STM32F1xx\Include</include>
+            <include>Drivers\CMSIS\Include</include>
+          </Cincludes>
+          <definestoremove>
+            <Adefines />
+            <Cdefines>
+              <define>USE_FULL_LL_DRIVER</define>
+              <define>MBEDTLS_CONFIG_FILE="mbedtls_config.h"</define>
+              <define>USE_FULL_ASSERT=1U</define>
+            </Cdefines>
+            <Ldefines />
+          </definestoremove>
+          <inctoremove>
+            <Aincludes>
+              <include />
+            </Aincludes>
+            <Cincludes />
+          </inctoremove>
+        </config>
+      </configs>
+      <copyAsReference>false</copyAsReference>
+      <sourceEntries>
+        <sourceEntry>
+          <name>Core</name>
+        </sourceEntry>
+        <sourceEntry>
+          <name>Drivers</name>
+        </sourceEntry>
+        <sourceEntry>
+          <name>Middlewares</name>
+        </sourceEntry>
+      </sourceEntries>
+      <Groups />
+    </Project>
+  </Workspace>
+</ScratchFile>
+
